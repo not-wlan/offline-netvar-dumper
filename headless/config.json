@@ -1,0 +1,427 @@
+{
+  "signatures": [
+    {
+      "name": "dwGetAllClasses",
+      "extra": 0,
+      "relative": true,
+      "module": "client_panorama.dll",
+      "offsets": [
+        1,
+        0
+      ],
+      "pattern": "A1 ? ? ? ? C3 CC CC CC CC CC CC CC CC CC CC A1 ? ? ? ? B9"
+    },
+    {
+      "name": "dwForceJump",
+      "extra": 0,
+      "relative": true,
+      "module": "client_panorama.dll",
+      "offsets": [
+        2
+      ],
+      "pattern": "8B 0D ? ? ? ? 8B D6 8B C1 83 CA 02"
+    }
+  ],
+  "netvars": [
+    {
+      "name": "m_ArmorValue",
+      "prop": "m_ArmorValue",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_Collision",
+      "prop": "m_Collision",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_CollisionGroup",
+      "prop": "m_CollisionGroup",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_Local",
+      "prop": "m_Local",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_MoveType",
+      "prop": "m_nRenderMode",
+      "offset": 1,
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_OriginalOwnerXuidHigh",
+      "prop": "m_OriginalOwnerXuidHigh",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_OriginalOwnerXuidLow",
+      "prop": "m_OriginalOwnerXuidLow",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_aimPunchAngle",
+      "prop": "m_aimPunchAngle",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_aimPunchAngleVel",
+      "prop": "m_aimPunchAngleVel",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_bGunGameImmunity",
+      "prop": "m_bGunGameImmunity",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_bHasDefuser",
+      "prop": "m_bHasDefuser",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_bHasHelmet",
+      "prop": "m_bHasHelmet",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_bInReload",
+      "prop": "m_flNextPrimaryAttack",
+      "offset": 109,
+      "table": "DT_BaseCombatWeapon"
+    },
+    {
+      "name": "m_bIsDefusing",
+      "prop": "m_bIsDefusing",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_bIsScoped",
+      "prop": "m_bIsScoped",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_bSpotted",
+      "prop": "m_bSpotted",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_bSpottedByMask",
+      "prop": "m_bSpottedByMask",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_dwBoneMatrix",
+      "prop": "m_nForceBone",
+      "offset": 28,
+      "table": "DT_BaseAnimating"
+    },
+    {
+      "name": "m_fAccuracyPenalty",
+      "prop": "m_fAccuracyPenalty",
+      "table": "DT_WeaponCSBase"
+    },
+    {
+      "name": "m_fFlags",
+      "prop": "m_fFlags",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_flFallbackWear",
+      "prop": "m_flFallbackWear",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_flFlashDuration",
+      "prop": "m_flFlashDuration",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_flFlashMaxAlpha",
+      "prop": "m_flFlashMaxAlpha",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_flNextPrimaryAttack",
+      "prop": "m_flNextPrimaryAttack",
+      "table": "DT_BaseCombatWeapon"
+    },
+    {
+      "name": "m_hActiveWeapon",
+      "prop": "m_hActiveWeapon",
+      "table": "DT_BaseCombatCharacter"
+    },
+    {
+      "name": "m_hMyWeapons",
+      "prop": "m_hActiveWeapon",
+      "offset": -256,
+      "table": "DT_BaseCombatCharacter"
+    },
+    {
+      "name": "m_hObserverTarget",
+      "prop": "m_hObserverTarget",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_hOwner",
+      "prop": "m_hOwner",
+      "table": "DT_BaseViewModel"
+    },
+    {
+      "name": "m_hOwnerEntity",
+      "prop": "m_hOwnerEntity",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_iAccountID",
+      "prop": "m_iAccountID",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_iClip1",
+      "prop": "m_iClip1",
+      "table": "DT_BaseCombatWeapon"
+    },
+    {
+      "name": "m_iCompetitiveRanking",
+      "prop": "m_iCompetitiveRanking",
+      "table": "DT_CSPlayerResource"
+    },
+    {
+      "name": "m_iCompetitiveWins",
+      "prop": "m_iCompetitiveWins",
+      "table": "DT_CSPlayerResource"
+    },
+    {
+      "name": "m_iCrosshairId",
+      "prop": "m_bHasDefuser",
+      "offset": 92,
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_iEntityQuality",
+      "prop": "m_iEntityQuality",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_iFOVStart",
+      "prop": "m_iFOVStart",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_iFOV",
+      "prop": "m_iFOV",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_iGlowIndex",
+      "prop": "m_flFlashDuration",
+      "offset": 24,
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_iHealth",
+      "prop": "m_iHealth",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_iItemDefinitionIndex",
+      "prop": "m_iItemDefinitionIndex",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_iItemIDHigh",
+      "prop": "m_iItemIDHigh",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_iObserverMode",
+      "prop": "m_iObserverMode",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_iShotsFired",
+      "prop": "m_iShotsFired",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_iState",
+      "prop": "m_iState",
+      "table": "DT_BaseCombatWeapon"
+    },
+    {
+      "name": "m_iTeamNum",
+      "prop": "m_iTeamNum",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_lifeState",
+      "prop": "m_lifeState",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_nFallbackPaintKit",
+      "prop": "m_nFallbackPaintKit",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_nFallbackSeed",
+      "prop": "m_nFallbackSeed",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_nFallbackStatTrak",
+      "prop": "m_nFallbackStatTrak",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_nForceBone",
+      "prop": "m_nForceBone",
+      "table": "DT_BaseAnimating"
+    },
+    {
+      "name": "m_nTickBase",
+      "prop": "m_nTickBase",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_rgflCoordinateFrame",
+      "prop": "m_CollisionGroup",
+      "offset": -48,
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_szCustomName",
+      "prop": "m_szCustomName",
+      "table": "DT_BaseAttributableItem"
+    },
+    {
+      "name": "m_szLastPlaceName",
+      "prop": "m_szLastPlaceName",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_vecOrigin",
+      "prop": "m_vecOrigin",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_vecVelocity",
+      "prop": "m_vecVelocity[0]",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_vecViewOffset",
+      "prop": "m_vecViewOffset[0]",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_viewPunchAngle",
+      "prop": "m_viewPunchAngle",
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_thirdPersonViewAngles",
+      "prop": "deadflag",
+      "offset": 4,
+      "table": "DT_BasePlayer"
+    },
+    {
+      "name": "m_clrRender",
+      "prop": "m_clrRender",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_flC4Blow",
+      "prop": "m_flC4Blow",
+      "table": "DT_PlantedC4"
+    },
+    {
+      "name": "m_flTimerLength",
+      "prop": "m_flTimerLength",
+      "table": "DT_PlantedC4"
+    },
+    {
+      "name": "m_flDefuseLength",
+      "prop": "m_flDefuseLength",
+      "table": "DT_PlantedC4"
+    },
+    {
+      "name": "m_flDefuseCountDown",
+      "prop": "m_flDefuseCountDown",
+      "table": "DT_PlantedC4"
+    },
+    {
+      "name": "cs_gamerules_data",
+      "prop": "cs_gamerules_data",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_SurvivalRules",
+      "prop": "m_SurvivalRules",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_SurvivalGameRuleDecisionTypes",
+      "prop": "m_SurvivalGameRuleDecisionTypes",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bIsValveDS",
+      "prop": "m_bIsValveDS",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bFreezePeriod",
+      "prop": "m_bFreezePeriod",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bBombPlanted",
+      "prop": "m_bBombPlanted",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_bIsQueuedMatchmaking",
+      "prop": "m_bIsQueuedMatchmaking",
+      "table": "DT_CSGameRulesProxy"
+    },
+    {
+      "name": "m_flSimulationTime",
+      "prop": "m_flSimulationTime",
+      "table": "DT_BaseEntity"
+    },
+    {
+      "name": "m_flLowerBodyYawTarget",
+      "prop": "m_flLowerBodyYawTarget",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_angEyeAnglesX",
+      "prop": "m_angEyeAngles[0]",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_angEyeAnglesY",
+      "prop": "m_angEyeAngles[1]",
+      "table": "DT_CSPlayer"
+    },
+    {
+      "name": "m_flNextAttack",
+      "prop": "m_flNextAttack",
+      "table": "DT_BaseCombatCharacter"
+    },
+    {
+      "name": "m_iMostRecentModelBoneCounter",
+      "prop": "m_nForceBone",
+      "offset": 4,
+      "table": "DT_BaseAnimating"
+    },
+    {
+      "name": "m_flLastBoneSetupTime",
+      "prop": "m_nSequence",
+      "offset": 104,
+      "table": "DT_BaseAnimating"
+    }
+  ]
+}
